@@ -1,2 +1,2 @@
-pid;artist;engraver;Color;Obect_type;label;location
-obj1;W. Daniell RA;E. J. Harris;Black and White;Print;Drawing of the Mouseleum of the Emperor Shere Shah; Sasaram India
+pid,artist,engraver,Color,Obect_type,label,location
+obj1,W. Daniell RA,E. J. Harris,Black and White,Print,Drawing of the Mouseleum of the Emperor Shere Shah, Sasaram India
