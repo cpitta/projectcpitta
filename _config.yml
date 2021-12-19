@@ -67,7 +67,7 @@ collections:
     output: true
   daniell: # name of collection
     output: true # makes sure pages are output as html files
-    layout: 'wax/collection_item' # the layout for the pages to use
+    layout: 'generic_collection_item' # the layout for the pages to use
     metadata:
       source: 'daniell.csv' # path to the metadata file within `_data`
     images:
@@ -89,11 +89,13 @@ search:
         content: false # whether or not to index page content
         fields: # the metadata fields to index
           - artist
-          - location
+          - engraver
+          - color
+          - Object_tye
           - label
-          - _date
-          - object_type
-          - current_location
+          - location
+         
+
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
